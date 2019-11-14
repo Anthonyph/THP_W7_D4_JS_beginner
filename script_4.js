@@ -23,6 +23,7 @@ var seventies = entrepreneurs.filter(function(entrepreneur){
   return entrepreneur.year >= 1970 && entrepreneur.year <= 1980;
 }); 
 console.log(seventies)
+
 console.log("Sors une array qui contient le prénom et le nom des entrepreneurs ;")
 
 function name() {
@@ -34,6 +35,7 @@ function name() {
   }
   console.log(array_entrepreneurs);
 }
+
 name()
 
 console.log("Quel âge aurait chaque inventeur aujourd'hui ?")
@@ -50,6 +52,7 @@ function year() {
 }
 
 year()
+
 console.log("Trie les entrepreneurs par ordre alphabétique du nom de famille.")
 
 function compare( a, b ) {
